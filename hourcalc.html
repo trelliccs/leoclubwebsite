@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Leo Club</title>
+        <meta name="description" content="LEO.">
+        <link rel="stylesheet" href="main.css">
+         <script>
+            
+            function calc()
+            {
+                var n1 = parseFloat(document.getElementById('n1').value);
+                var n2 = parseFloat(document.getElementById('n2').value);
+                
+                var oper = document.getElementById('operators').value;
+                
+                if(oper === '-')
+                {
+                    document.getElementById('result').value = n1-n2;
+                }
+                
+               
+            }
+            
+        </script>
+        
+    </head>
+    <body>
+                  <div class="logo"><a href="#"><img src="leoclub.png"></a></div>
+                    <nav>
+                       
+                        <ul>    <li><a href="contact.html">Contact </a></li>
+                            <li><a href="hourcalc.html">Hour Calc </a></li>
+                               <li><a href="">Calendar </a></li>
+                            <li><a href="leoclubwebsite.html">Home </a></li>
+
+                        </ul>
+                    </nav>
+            
+<div class ="container"> 
+            
+        
+                    
+            
+            
+         
+             
+    
+        <input type="text" id="n1"/><br/><br/>
+        <input type="text" id="n2"/><br/><br/>
+        
+        <select id="operators">
+        
+            <option value="-">-</option>
+        </select>
+        
+        <button onclick="calc();">=</button>
+        <input type="text" id="result"/>
+        </div>
+    </body>
+</html>
+            
