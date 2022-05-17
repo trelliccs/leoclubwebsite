@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="main.css">
+         <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <style>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    </style>
+    </head>
+    <body>
+        
+           <div class="logo"><a href="#"><img src="leoclub.png"></a></div>
+                    <nav>
+                       
+                        <ul>    <li><a href="contact.html">Contact </a></li>
+                            <li><a href="hourcalc.html">Hour Calc </a></li>
+                               <li><a href="">Calendar </a></li>
+                            <li><a href="leoclubwebsite.html">Home </a></li>
+
+                        </ul>
+                    </nav>
+        
+            
+         
+             <div class="img-wrap">
+    <img src="communityexample1.jpeg" id="img1" width="100%" height="100%" alt=""/>
+                <div class="text">
+       <h2>Some text</h2>
+                 <h2>HI text</h2>       
+                 </div>
+        </div>
+
+        
+        
+     </body>
+</html>
